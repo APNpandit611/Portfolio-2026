@@ -1,4 +1,6 @@
 import { navbarItems } from "@/utils/data";
+import DarkModeToggle from "./DarkModeToggle";
+import Switch from "./ToggleButton";
 
 const MenuItems = () => {
     return (
@@ -8,6 +10,8 @@ const MenuItems = () => {
                     {item}
                 </a>
             ))}
+            {/* <DarkModeToggle/> */}
+            <Switch/>
         </div>
     );
 };

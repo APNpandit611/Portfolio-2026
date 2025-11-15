@@ -1,3 +1,4 @@
+import DarkModeToggle from "./DarkModeToggle";
 import HamburgerMenu from "./HamburgerMenu";
 import Logo from "./Logo";
 import MenuItems from "./MenuItems";
