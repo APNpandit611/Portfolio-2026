@@ -23,7 +23,7 @@ const HeroSection = () => {
 
                 <div className="flex gap-4">
                     <a
-                        href={`mailto:${"apnpanditt@gmail.com"}`}
+                        href="#contact"
                         className="border border-green bg-green p-4 px-8 uppercase font-mono text-sm hover:bg-green-hover"
                     >
                         get in touch
