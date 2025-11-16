@@ -41,8 +41,8 @@ const Project = () => {
                             "clerk auth",
                             "ai model",
                         ]}
-                        githubLink="HTtp://"
-                        liveLink="htlksdjflds"
+                        liveLink="https://codiz.netlify.app/"
+                        githubLink="https://github.com/APNpandit611/codiz"
                     />
 
                     <ProjectCard
