@@ -1,4 +1,4 @@
-import { Briefcase, Calendar, Circle, Dot, MapPin } from "lucide-react";
+import { Briefcase,Calendar1, Circle, Dot, MapPin } from "lucide-react";
 import React, { FC } from "react";
 
 type ExperienceCardProps = {
@@ -28,8 +28,8 @@ const ExperienceCard: FC<ExperienceCardProps> = ({
                 <h3 className="text-3xl font-sans font-semibold text-primary dark:text-background">
                     {role}
                 </h3>
-                <div className="flex items-center gap-2">
-                    <Calendar className="w-4 h-4 text-secondary" />
+                <div className="flex items-center gap-2 dark:text-background">
+                    <Calendar1 className="w-4 h-4 dark:text-background" />
                     <p className="uppercase text-xs text-secondary font-mono dark:text-background">
                         {" "}
                         {startDate} - {endDate ?? "ongoing"}
@@ -52,7 +52,7 @@ const ExperienceCard: FC<ExperienceCardProps> = ({
 
             {experience.map((item, index) => (
                 <div key={index} className="flex items-center gap-4 mb-2">
-                    <Circle className="text-green w-3 h-3" />
+                    <Dot className="text-green w-10 h-10 flex-shrink-0" />
                     <p className="text-lg font-sans">{item}</p>
                 </div>
             ))}
