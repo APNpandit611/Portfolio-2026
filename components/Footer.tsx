@@ -1,8 +1,5 @@
-import React from "react";
-import ExperienceCard from "./ExperienceCard";
 import { Github, Linkedin, Mail, MapPin } from "lucide-react";
 import Logo from "./Logo";
-import Link from "next/link";
 
 const Footer = () => {
     return (

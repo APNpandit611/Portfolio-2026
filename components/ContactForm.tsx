@@ -1,14 +1,6 @@
 "use client";
-import POST from "@/app/api/contact/route";
 import React, { useState } from "react";
-import {
-    Mail,
-    User,
-    ChartArea,
-    MessageCircle,
-    Loader2,
-    Loader2Icon,
-} from "lucide-react";
+import { Mail, User, MessageCircle } from "lucide-react";
 import { CheckCircle2Icon } from "lucide-react";
 import Loader from "./Loader";
 

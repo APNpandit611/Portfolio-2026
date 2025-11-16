@@ -1,14 +1,8 @@
-"use client";
-import React, { useState } from "react";
 import { profileData } from "../utils/data";
 import {
     Mail,
-    Phone,
     Github,
     Linkedin,
-    Send,
-    CheckCircle,
-    MapPin,
     PhoneCall,
 } from "lucide-react";
 import ContactFormUI from "./ContactForm";

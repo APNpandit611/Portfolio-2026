@@ -1,5 +1,4 @@
 import { navbarItems } from "@/utils/data";
-import DarkModeToggle from "./DarkModeToggle";
 import Switch from "./ToggleButton";
 
 const MenuItems = () => {

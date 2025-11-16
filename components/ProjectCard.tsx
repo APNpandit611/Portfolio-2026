@@ -1,4 +1,4 @@
-import { Code, Code2, Code2Icon, ExternalLink, Github } from "lucide-react";
+import {Code2, ExternalLink, Github } from "lucide-react";
 import React, { FC } from "react";
 
 type ProjectCardProps = {
