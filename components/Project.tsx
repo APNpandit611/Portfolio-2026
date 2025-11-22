@@ -33,15 +33,18 @@ const Project = () => {
                     <ProjectCard
                         techstack="Next + GenAI"
                         name="Codiz"
-                        description="Developed a code quiz generator with clerk authentication in Next.js. Implemented Nemotron Nano model from openrouter to generate quiz."
+                        description="Developed a code quiz generator with clerk authentication in Next.js. Implemented AI model to generate code quiz based on the language and difficulty level selected. Supabase backend with prisma to handle the user and quiz history saving."
                         technologies={[
                             "next.js",
                             "openrouter ai",
                             "open ai",
                             "clerk auth",
                             "ai model",
+                            "prisma",
+                            "postgres",
+                            "supabase"
                         ]}
-                        liveLink="https://codiz.netlify.app/"
+                        liveLink="https://codiz-sigma.vercel.app/"
                         githubLink="https://github.com/APNpandit611/codiz"
                     />
 
