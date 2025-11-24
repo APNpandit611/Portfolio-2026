@@ -44,7 +44,7 @@ const Project = () => {
                             "postgres",
                             "supabase"
                         ]}
-                        liveLink="https://codiz-sigma.vercel.app/"
+                        liveLink="https://ai-codiz.vercel.app/"
                         githubLink="https://github.com/APNpandit611/codiz"
                     />
 
@@ -62,6 +62,22 @@ const Project = () => {
                         ]}
                         githubLink="https://github.com/APNpandit611/image-me"
                         liveLink="https://image-me.netlify.app/"
+                    />
+
+                    <ProjectCard
+                        techstack="Nextjs + Prisma"
+                        name="Todo Application"
+                        description="A general todo application"
+                        technologies={[
+                            "next.js",
+                            "prisma",
+                            "node.js",
+                            "react.js",
+                            "tailwindcss",
+                            "prismaORM",
+                        ]}
+                        githubLink="https://github.com/APNpandit611/todo"
+                        liveLink="https://to-do-port.vercel.app/"
                     />
                 </div>
             </div>
