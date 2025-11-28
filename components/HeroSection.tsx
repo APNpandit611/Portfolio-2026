@@ -24,7 +24,7 @@ const HeroSection = () => {
                 <div className="flex gap-4">
                     <a
                         href="#contact"
-                        className="border border-green bg-green p-4 px-8 uppercase font-mono text-sm hover:bg-green-hover"
+                        className="border border-green bg-green-hover p-4 px-8 uppercase font-mono text-sm hover:bg-green"
                     >
                         get in touch
                     </a>
