@@ -14,7 +14,7 @@ const Project = () => {
                     <ProjectCard
                         techstack="Mern stack"
                         name="Feedbook"
-                        description="Social platform where users can create, share, and react to posts. Implemented secure login with JWT and used MongoDB for scalable data storage. Deployed fullstack app showcasing CRUD functionality and interactive UI."
+                        description="Feedbook is a MERN-stack social platform where users can create posts, react, and manage their feed with ease. It features secure JWT/OAuth authentication, scalable MongoDB storage, Cloudinary media handling, and a responsive React UI powered by Redux Toolkit. The full app showcases smooth CRUD operations and modern API-driven design."
                         technologies={[
                             "MONGODB",
                             "EXPRESS.js",
@@ -31,9 +31,9 @@ const Project = () => {
                     />
 
                     <ProjectCard
-                        techstack="Next + GenAI"
+                        techstack="Next.js + OpenAI + TypeScript"
                         name="Codiz"
-                        description="Developed a code quiz generator with clerk authentication in Next.js. Implemented AI model to generate code quiz based on the language and difficulty level selected. Supabase backend with prisma to handle the user and quiz history saving."
+                        description="Codiz is an AI-powered code quiz generator built with Next.js, featuring secure Clerk authentication and dynamic quiz creation based on language and difficulty. It uses OpenAI/OpenRouter models to generate tailored questions, with Supabase and Prisma managing user data and quiz history."
                         technologies={[
                             "next.js",
                             "openrouter ai",
@@ -42,7 +42,8 @@ const Project = () => {
                             "ai model",
                             "prisma",
                             "postgres",
-                            "supabase"
+                            "supabase",
+                            "typescript"
                         ]}
                         liveLink="https://ai-codiz.vercel.app/"
                         githubLink="https://github.com/APNpandit611/codiz"
@@ -51,23 +52,42 @@ const Project = () => {
                     <ProjectCard
                         techstack="Mern + GenAI"
                         name="Image.me"
-                        description="Image generation application using OpenAI gpt-5 image mini."
+                        description="Image.me is an AI-powered image generation app built with the MERN stack, using OpenAI’s GPT-5 Image Mini model to create high-quality visuals from user prompts. It features a React-based UI, secure Express/Node backend, and Cloudinary integration for efficient image storage and delivery."
                         technologies={[
                             "mongodb",
                             "express.js",
                             "node.js",
                             "react.js",
                             "cloudinary",
-                            "openai",
+                            "openai (gpt-5 image mini)",
                         ]}
                         githubLink="https://github.com/APNpandit611/image-me"
                         liveLink="https://image-me.netlify.app/"
                     />
 
                     <ProjectCard
+                        techstack="Nextjs + Prisma + NeonDB"
+                        name="OmaKharcha"
+                        description="OmaKharcha is a modern expense-tracking app built with Next.js, featuring secure Clerk authentication and clear budget insights. Spending data is visualized through interactive Recharts pie charts, while Prisma and NeonDB provide reliable, high-performance data management."
+                        technologies={[
+                            "next.js",
+                            "prisma",
+                            "node.js",
+                            "react.js",
+                            "tailwindcss",
+                            "neonDB",
+                            "recharts",
+                            "clerk",
+                            "typescript"
+                        ]}
+                        githubLink="https://github.com/APNpandit611/OmaKharcha"
+                        liveLink="http://oma-kharcha.vercel.app/"
+                    />
+
+                    <ProjectCard
                         techstack="Nextjs + Prisma"
                         name="Todo Application"
-                        description="A general todo application"
+                        description="A simple yet powerful todo app built with Next.js and Prisma, featuring task creation, archiving, restoration, and auto-deletion. The React + Tailwind UI keeps everything fast, minimal, and easy to use."
                         technologies={[
                             "next.js",
                             "prisma",
@@ -75,6 +95,7 @@ const Project = () => {
                             "react.js",
                             "tailwindcss",
                             "prismaORM",
+                            "typescript"
                         ]}
                         githubLink="https://github.com/APNpandit611/todo"
                         liveLink="https://to-do-port.vercel.app/"
