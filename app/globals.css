@@ -1,8 +1,35 @@
 /* app/globals.css */
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+
+@theme {
+  /* Colors */
+  --color-green: #38FF62;
+  --color-green-hover: #2AE052;
+  --color-background: #F2F2F2;
+  --color-primary: #232323;
+  --color-secondary: rgba(35, 35, 35, 0.7);
+  --color-border: #232323;
+  --color-border-light: rgba(35, 35, 35, 0.1);
+  --color-dark-light: #0e79e4;
+
+  /* Fonts */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
+  --font-mono: "Courier New", monospace;
+  --font-serif: "Times New Roman";
+}
+
+/* Dark mode overrides */
+/* html.dark {
+  --color-background: #232323;
+  --color-primary: #F2F2F2;
+  --color-secondary: rgba(255, 255, 255, 0.7);
+  --color-border: #F2F2F2;
+  --color-border-light: rgba(255, 255, 255, 0.1);
+} */
 
 .bg-grid {
   background-image:

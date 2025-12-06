@@ -12,7 +12,7 @@ const About = () => {
                 </h1>
                 <div className="flex flex-col gap-8 items-start lg:flex-row lg:items-center">
                     <div className="w-full flex flex-col gap-8">
-                        <span className="font-sans text-lg leading-[2]">
+                        <span className="font-sans text-md text-secondary dark:text-background leading-loose">
                             Recent Information Technology graduate with hands on
                             experience building full-stack web applications
                             using JavaScript/TS, Node.js, React and Next.js.
@@ -26,7 +26,7 @@ const About = () => {
                             <span className="text-green">
                                 <MapPin />
                             </span>
-                            <span className="font-sans text-lg">
+                            <span className="font-sans text-lg text-secondary dark:text-background">
                                 Kokkola, Finland
                             </span>
                         </div>

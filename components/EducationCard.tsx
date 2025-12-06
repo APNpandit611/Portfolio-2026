@@ -42,7 +42,7 @@ const EducationCard: FC<EducationCardProps> = ({
 
             {/* GPA */}
             <div>
-                <p className="text-xs text-background uppercase mb-1">GPA</p>
+                <p className="text-xs uppercase mb-1">GPA</p>
                 <p className="text-lg font-bold">{gpa} / 5</p>
             </div>
         </div>

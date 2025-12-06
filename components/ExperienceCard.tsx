@@ -52,8 +52,8 @@ const ExperienceCard: FC<ExperienceCardProps> = ({
 
             {experience.map((item, index) => (
                 <div key={index} className="flex items-center gap-4 mb-2">
-                    <Dot className="text-green w-10 h-10 flex-shrink-0" />
-                    <p className="text-lg font-sans">{item}</p>
+                    <Dot className="text-green w-10 h-10 shrink-0" />
+                    <p className="text-md text-secondary font-sans dark:text-background">{item}</p>
                 </div>
             ))}
         </div>

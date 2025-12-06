@@ -44,7 +44,7 @@ const Contact = () => {
                 </h1>
                 <div className="flex flex-col gap-8 items-start lg:flex-row lg:items-center">
                     <div className="w-full flex flex-col gap-8">
-                        <span className="font-sans text-lg leading-[2] dark:text-background">
+                        <span className="font-sans text-lg text-secondary leading-loose dark:text-background">
                             I am always open to discussing new projects,
                             creative ideas, or opportunities to be part of your
                             vision.
