@@ -83,7 +83,7 @@ const Project = () => {
                     />
 
                     <ProjectCard
-                        techstack="Weather App (Nepali Language)"
+                        techstack="Next.js + Open-Mateo API"
                         name="Mausam"
                         description="A responsive weather application build for my mom in my native language (Nepali). Real time data using Open-Mateo weather API with next.js framework. Simple and clean UI for better user experience."
                         technologies={[
