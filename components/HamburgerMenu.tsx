@@ -1,5 +1,4 @@
-// components/Navbar.tsx
-"use client"; // Add this because we are using useState
+"use client";
 
 import { useState } from "react";
 import { MenuIcon, X } from "lucide-react";
@@ -41,7 +40,7 @@ const HamburgerMenu = () => {
             <div
                 className={`
                     fixed left-0 w-full bg-white shadow-lg border-b border-gray-300 z-40 mt-[1px]
-                    transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)]
+                    transition-all duration-300 ease-in-out
                     overflow-hidden dark:bg-primary
                     ${
                         isOpen

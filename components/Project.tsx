@@ -12,25 +12,6 @@ const Project = () => {
                 </h1>
                 <div className="flex gap-4 flex-wrap">
                     <ProjectCard
-                        techstack="Mern stack"
-                        name="Feedbook"
-                        description="Feedbook is a MERN-stack social platform where users can create posts, react, and manage their feed with ease. It features secure JWT/OAuth authentication, scalable MongoDB storage, Cloudinary media handling, and a responsive React UI powered by Redux Toolkit. The full app showcases smooth CRUD operations and modern API-driven design."
-                        technologies={[
-                            "MONGODB",
-                            "EXPRESS.js",
-                            "REACT.JS",
-                            "node.js",
-                            "jwt",
-                            "oauth",
-                            "redux-toolkit",
-                            "cloudinary",
-                            "Rest api",
-                        ]}
-                        githubLink="https://github.com/APNpandit611/feedbook"
-                        liveLink="https://feedbook-48dd.onrender.com/"
-                    />
-
-                    <ProjectCard
                         techstack="Next.js + OpenAI + TypeScript"
                         name="Codiz"
                         description="Codiz is an AI-powered code quiz generator built with Next.js, featuring secure Clerk authentication and dynamic quiz creation based on language and difficulty. It uses OpenAI/OpenRouter models to generate tailored questions, with Supabase and Prisma managing user data and quiz history."
@@ -99,6 +80,37 @@ const Project = () => {
                         ]}
                         githubLink="https://github.com/APNpandit611/todo"
                         liveLink="https://to-do-port.vercel.app/"
+                    />
+
+                    <ProjectCard
+                        techstack="Weather App (Nepali Language)"
+                        name="Mausam"
+                        description="A responsive weather application build for my mom in my native language (Nepali). Real time data using Open-Mateo weather API with next.js framework. Simple and clean UI for better user experience."
+                        technologies={[
+                            "next.js",
+                            "open-mateo weather api",
+                        ]}
+                        githubLink="https://github.com/APNpandit611/weather-app-nepali"
+                        liveLink="https://meromausam.netlify.app/"
+                    />
+
+                    <ProjectCard
+                        techstack="Mern stack"
+                        name="Feedbook"
+                        description="Feedbook is a MERN-stack social platform where users can create posts, react, and manage their feed with ease. It features secure JWT/OAuth authentication, scalable MongoDB storage, Cloudinary media handling, and a responsive React UI powered by Redux Toolkit. The full app showcases smooth CRUD operations and modern API-driven design."
+                        technologies={[
+                            "MONGODB",
+                            "EXPRESS.js",
+                            "REACT.JS",
+                            "node.js",
+                            "jwt",
+                            "oauth",
+                            "redux-toolkit",
+                            "cloudinary",
+                            "Rest api",
+                        ]}
+                        githubLink="https://github.com/APNpandit611/feedbook"
+                        liveLink="https://feedbook-48dd.onrender.com/"
                     />
                 </div>
             </div>
