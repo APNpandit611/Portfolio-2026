@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-    title: "Portfolio",
+    title: "Abhishek Pandit",
     description: "A personal portfolio",
     icons: {
         apple: "/apple-touch-icon.png",
