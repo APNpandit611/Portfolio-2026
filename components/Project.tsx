@@ -12,6 +12,21 @@ const Project = () => {
                 </h1>
                 <div className="flex gap-4 flex-wrap">
                     <ProjectCard
+                        techstack="Next.js + Postgres"
+                        name="SportsSync"
+                        description="An application where sport clubs can register and host tournaments, share live scores to the viewers. Built for Football and Cricket. "
+                        technologies={[
+                            "next.js",
+                            "jwt",
+                            "prisma",
+                            "postgres",
+                            "neondb"
+                        ]}
+                        liveLink="https://sportssync.cc/"
+                        githubLink="https://github.com/APNpandit611/sportsync"
+                    />
+
+<ProjectCard
                         techstack="Next.js + OpenAI + TypeScript"
                         name="Codiz"
                         description="Codiz is an AI-powered code quiz generator built with Next.js, featuring secure Clerk authentication and dynamic quiz creation based on language and difficulty. It uses OpenAI/OpenRouter models to generate tailored questions, with Supabase and Prisma managing user data and quiz history."
